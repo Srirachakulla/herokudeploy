@@ -20,10 +20,6 @@ pickle_in=open("rf.pkl",'rb')
 classifier=pickle.load(pickle_in)
 
 @app.route('/')
-def welcome():
-    return"welcome all"
-    
-@app.route('/predict')
 def predict_diab():
     
     """Diabetis Prediction Engine 
