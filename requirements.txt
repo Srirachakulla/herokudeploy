@@ -3,7 +3,7 @@ dask==2.11.0
 flake8==3.7.9
 flasgger==0.9.4
 Flask==1.1.1
-Jinja2==2.11.1
+Jinja2==2.11.3
 numba==0.48.0
 numexpr==2.7.1
 numpy==1.18.1
